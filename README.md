@@ -10,7 +10,7 @@
     ```
     docker compose -f docker-compose.yml up
  	```
-2. access with a web browser:
+2. Access with a web browser:
     
     http://localhost:8081
 
