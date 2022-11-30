@@ -10,3 +10,10 @@
     ```
     docker compose -f docker-compose.yml up
  	```
+2. acceder con un navegador web:
+    
+    http://localhost:8081
+
+3. To access the application, the default credentials:
+    user: admin
+    password: admin
