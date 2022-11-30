@@ -1,0 +1,256 @@
+INFO 2022-11-29 11:03:10,086 apps Running Kolibri with the following settings: kolibri.deployment.default.settings.base
+INFO 2022-11-29 11:03:10,720 cli Kolibri running for the first time.
+INFO 2022-11-29 11:03:10,721 cli We don't yet use pre-migrated database seeds, so you're going to have to wait a bit while we create a blank database...
+
+
+INFO 2022-11-29 11:03:24,299 cli Automatically enabling applications.
+INFO 2022-11-29 11:03:24,300 cli Running update routines for new version...
+INFO 2022-11-29 11:03:26,430 annotation Updating num_coach_content on existing channels
+INFO 2022-11-29 11:03:26,498 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-29 11:03:26,506 cli Running 'kolibri start' as daemon (system service)
+INFO 2022-11-29 11:03:26,523 cli Kolibri running on:
+
+INFO 2022-11-29 11:03:26,524 cli Going to daemon mode, logging to /root/.kolibri/logs/kolibri.txt
+INFO 2022-11-29 11:03:26,624 ping Attempting a ping.
+INFO 2022-11-29 11:03:27,038 utils Started new JOBCHECKER thread ID#e1bbb303e6074089ac3cc2aade1a11b4
+INFO 2022-11-29 11:03:27,051 annotation Updating num_coach_content on existing channels
+INFO 2022-11-29 11:03:27,058 server Starting Kolibri 0.12.8
+INFO 2022-11-29 11:03:27,616 ping Ping succeeded! (response: {u'messages': [], u'id': 3304033})
+INFO 2022-11-29 11:03:28,069 ping Sleeping for 1440.0 minutes.
+INFO 2022-11-29 11:03:28,130 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-29 11:03:28,131 vacuumsqlite Next Vacuum at 3AM local server time (in 956 minutes).
+INFO 2022-11-29 11:03:28,576 cherrypy.error ENGINE Bus STARTING
+INFO 2022-11-29 11:03:28,687 cherrypy.error ENGINE Serving on http://0.0.0.0:8080
+INFO 2022-11-29 11:03:28,688 cherrypy.error ENGINE Bus STARTED
+WARNING 2022-11-29 11:08:44,284 api Did not find language code bho in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,285 api Did not find language code tpi in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,286 api Did not find language code brh in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,286 api Did not find language code taj in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,287 api Did not find language code bxk in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,287 api Did not find language code enq in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,287 api Did not find language code yao in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,288 api Did not find language code new in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,288 api Did not find language code kak in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,289 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,289 api Did not find language code mai in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,289 api Did not find language code awa in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,290 api Did not find language code pbu in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,291 api Did not find language code pbt in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,291 api Did not find language code tum in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,292 api Did not find language code bcc in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,292 api Did not find language code srr in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,292 api Did not find language code dty in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,293 api Did not find language code thl in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,293 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,294 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,295 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,296 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,299 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,299 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,300 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,301 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 11:08:44,301 api Did not find language code tum in our le_utils.constants!
+INFO 2022-11-29 11:08:52,032 importchannel Downloading data for channel id 000409f81dbe5d1ba67101cb9fed4530
+INFO 2022-11-29 11:08:53,187 channel_import Importing ContentTag data
+INFO 2022-11-29 11:08:53,189 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 11:08:53,191 channel_import Importing ContentNode_related data
+INFO 2022-11-29 11:08:53,192 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 11:08:53,193 channel_import Importing ContentNode data
+INFO 2022-11-29 11:08:53,204 channel_import Importing Language data
+INFO 2022-11-29 11:08:53,206 channel_import Importing File data
+INFO 2022-11-29 11:08:53,220 channel_import Importing LocalFile data
+INFO 2022-11-29 11:08:53,224 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 11:08:53,225 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 11:08:53,299 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 11:08:53,309 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 11:08:53,337 annotation Annotating ContentNode objects with children for 3 levels
+INFO 2022-11-29 11:08:53,350 annotation Annotating ContentNode objects with children for level 3
+INFO 2022-11-29 11:08:53,353 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 11:08:53,357 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 11:09:14,909 importchannel Downloading data for channel id 1c98e92b8c2f536796960bed8d137a25
+INFO 2022-11-29 11:09:17,783 channel_import Importing ContentTag data
+INFO 2022-11-29 11:09:17,791 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 11:09:17,793 channel_import Importing ContentNode_related data
+INFO 2022-11-29 11:09:17,795 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 11:09:17,822 channel_import Importing ContentNode data
+INFO 2022-11-29 11:09:17,872 channel_import Importing Language data
+INFO 2022-11-29 11:09:17,875 channel_import Importing File data
+INFO 2022-11-29 11:09:17,945 channel_import Importing LocalFile data
+INFO 2022-11-29 11:09:17,965 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 11:09:17,967 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 11:09:18,134 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 11:09:18,145 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 11:09:18,172 annotation Annotating ContentNode objects with children for 4 levels
+INFO 2022-11-29 11:09:18,181 annotation Annotating ContentNode objects with children for level 4
+INFO 2022-11-29 11:09:18,184 annotation Annotating ContentNode objects with children for level 3
+INFO 2022-11-29 11:09:18,189 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 11:09:18,191 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 11:09:46,404 importchannel Downloading data for channel id 07cd1633691b4473b6fda08caf826253
+INFO 2022-11-29 11:09:47,037 channel_import Importing ContentTag data
+INFO 2022-11-29 11:09:47,040 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 11:09:47,041 channel_import Importing ContentNode_related data
+INFO 2022-11-29 11:09:47,042 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 11:09:47,057 channel_import Importing ContentNode data
+INFO 2022-11-29 11:09:47,067 channel_import Importing Language data
+INFO 2022-11-29 11:09:47,068 channel_import Importing File data
+INFO 2022-11-29 11:09:47,079 channel_import Importing LocalFile data
+INFO 2022-11-29 11:09:47,086 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 11:09:47,087 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 11:09:47,230 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 11:09:47,242 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 11:09:47,262 annotation Annotating ContentNode objects with children for 2 levels
+INFO 2022-11-29 11:09:47,272 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 11:09:47,276 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 11:12:42,950 annotation Setting availability to True of 101 LocalFile objects based on passed in checksums
+INFO 2022-11-29 11:12:42,966 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 11:12:42,978 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 11:12:42,998 annotation Annotating ContentNode objects with children for 2 levels
+INFO 2022-11-29 11:12:43,009 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 11:12:43,015 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 11:14:39,394 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/html5_app_renderer_module/html5_app_renderer_module0.12.8.css HTTP/1.1" 200 164 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:14:39,396 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/html5_app_renderer_module/html5_app_renderer_module-0.12.8.js HTTP/1.1" 200 5812 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:14:39,736 tasks Initializing background log saving process
+INFO 2022-11-29 11:14:39,943 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:15:00,366 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:15:16,521 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:15:25,360 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:15:33,792 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:15:41,242 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:21:09,257 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/coach_module/coach_module0.12.8.css HTTP/1.1" 200 4002 "http://localhost:8081/es-419/coach/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 11:21:09,282 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/coach_module/coach_module-0.12.8.js HTTP/1.1" 200 159293 "http://localhost:8081/es-419/coach/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+WARNING 2022-11-29 12:26:51,802 api Did not find language code bho in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,804 api Did not find language code tpi in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,804 api Did not find language code brh in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,804 api Did not find language code taj in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,804 api Did not find language code bxk in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,804 api Did not find language code enq in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code yao in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code new in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code kak in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code mai in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,805 api Did not find language code awa in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,806 api Did not find language code pbu in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,806 api Did not find language code pbt in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,806 api Did not find language code tum in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,806 api Did not find language code bcc in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,807 api Did not find language code srr in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,807 api Did not find language code dty in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,807 api Did not find language code thl in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,808 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,808 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,809 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,810 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,811 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,812 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,813 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,813 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 12:26:51,813 api Did not find language code tum in our le_utils.constants!
+INFO 2022-11-29 12:29:03,187 importchannel Downloading data for channel id 6cb19f6919055fe8991b0d323c5eed28
+INFO 2022-11-29 12:29:04,162 channel_import Importing ContentTag data
+INFO 2022-11-29 12:29:04,163 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 12:29:04,164 channel_import Importing ContentNode_related data
+INFO 2022-11-29 12:29:04,164 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 12:29:04,165 channel_import Importing ContentNode data
+INFO 2022-11-29 12:29:04,166 channel_import Importing Language data
+INFO 2022-11-29 12:29:04,168 channel_import Importing File data
+INFO 2022-11-29 12:29:04,171 channel_import Importing LocalFile data
+INFO 2022-11-29 12:29:04,172 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 12:29:04,173 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 12:29:04,204 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 12:29:04,213 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 12:29:04,232 annotation Annotating ContentNode objects with children for 1 levels
+INFO 2022-11-29 12:29:04,241 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 12:31:22,210 annotation Setting availability to True of 5 LocalFile objects based on passed in checksums
+INFO 2022-11-29 12:31:22,219 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 12:31:22,227 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 12:31:22,238 annotation Annotating ContentNode objects with children for 1 levels
+INFO 2022-11-29 12:31:22,242 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 12:31:37,123 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/content/hashiframe-eb4555ee36e4ec167406.js HTTP/1.1" 200 13966 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+WARNING 2022-11-29 12:32:53,191 api Did not find language code bho in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,191 api Did not find language code tpi in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,192 api Did not find language code brh in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,193 api Did not find language code taj in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,193 api Did not find language code bxk in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,195 api Did not find language code enq in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,195 api Did not find language code yao in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,195 api Did not find language code new in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,195 api Did not find language code kak in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,195 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,196 api Did not find language code mai in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,196 api Did not find language code awa in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,197 api Did not find language code pbu in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,197 api Did not find language code pbt in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,197 api Did not find language code tum in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,197 api Did not find language code bcc in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,198 api Did not find language code srr in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,198 api Did not find language code dty in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,198 api Did not find language code thl in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,199 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,199 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,201 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,202 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,205 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,205 api Did not find language code zh-Hant in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,207 api Did not find language code guz in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,208 api Did not find language code kam in our le_utils.constants!
+WARNING 2022-11-29 12:32:53,208 api Did not find language code tum in our le_utils.constants!
+INFO 2022-11-29 12:33:17,268 importchannel Downloading data for channel id 604ad3b85d844dd89ee70fa12a9a5a6e
+INFO 2022-11-29 12:33:20,395 channel_import Importing ContentTag data
+INFO 2022-11-29 12:33:20,398 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 12:33:20,399 channel_import Importing ContentNode_related data
+INFO 2022-11-29 12:33:20,399 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 12:33:20,410 channel_import Importing ContentNode data
+INFO 2022-11-29 12:33:20,695 channel_import Importing Language data
+INFO 2022-11-29 12:33:20,696 channel_import Importing File data
+INFO 2022-11-29 12:33:20,786 channel_import Importing LocalFile data
+INFO 2022-11-29 12:33:20,807 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 12:33:20,827 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 12:33:21,064 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 12:33:21,080 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 12:33:21,130 annotation Annotating ContentNode objects with children for 8 levels
+INFO 2022-11-29 12:33:21,178 annotation Annotating ContentNode objects with children for level 8
+INFO 2022-11-29 12:33:21,184 annotation Annotating ContentNode objects with children for level 7
+INFO 2022-11-29 12:33:21,195 annotation Annotating ContentNode objects with children for level 6
+INFO 2022-11-29 12:33:21,199 annotation Annotating ContentNode objects with children for level 5
+INFO 2022-11-29 12:33:21,202 annotation Annotating ContentNode objects with children for level 4
+INFO 2022-11-29 12:33:21,203 annotation Annotating ContentNode objects with children for level 3
+INFO 2022-11-29 12:33:21,205 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 12:33:21,206 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 12:35:28,304 importchannel Downloading data for channel id c1f2b7e6ac9f56a2bb44fa7a48b66dce
+INFO 2022-11-29 12:35:36,518 channel_import Importing ContentTag data
+INFO 2022-11-29 12:35:36,519 channel_import Importing ContentNode_has_prerequisite data
+INFO 2022-11-29 12:35:36,520 channel_import Importing ContentNode_related data
+INFO 2022-11-29 12:35:36,521 channel_import Importing ContentNode_tags data
+INFO 2022-11-29 12:35:36,521 channel_import Importing ContentNode data
+INFO 2022-11-29 12:35:39,516 channel_import Importing Language data
+INFO 2022-11-29 12:35:39,517 channel_import Importing File data
+INFO 2022-11-29 12:35:44,740 channel_import Importing LocalFile data
+INFO 2022-11-29 12:35:44,786 channel_import Importing AssessmentMetaData data
+INFO 2022-11-29 12:35:44,928 channel_import Importing ChannelMetadata data
+INFO 2022-11-29 12:35:45,767 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 12:35:45,838 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 12:35:46,006 annotation Annotating ContentNode objects with children for 6 levels
+INFO 2022-11-29 12:35:46,171 annotation Annotating ContentNode objects with children for level 6
+INFO 2022-11-29 12:35:46,174 annotation Annotating ContentNode objects with children for level 5
+INFO 2022-11-29 12:35:46,198 annotation Annotating ContentNode objects with children for level 4
+INFO 2022-11-29 12:35:46,203 annotation Annotating ContentNode objects with children for level 3
+INFO 2022-11-29 12:35:46,206 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 12:35:46,208 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 12:36:46,724 annotation Setting availability to True of 2 LocalFile objects based on passed in checksums
+INFO 2022-11-29 12:36:46,733 annotation Setting availability of File objects based on LocalFile availability
+INFO 2022-11-29 12:36:46,807 annotation Setting availability of non-topic ContentNode objects based on File availability
+INFO 2022-11-29 12:36:46,978 annotation Annotating ContentNode objects with children for 6 levels
+INFO 2022-11-29 12:36:47,035 annotation Annotating ContentNode objects with children for level 6
+INFO 2022-11-29 12:36:47,037 annotation Annotating ContentNode objects with children for level 5
+INFO 2022-11-29 12:36:47,055 annotation Annotating ContentNode objects with children for level 4
+INFO 2022-11-29 12:36:47,060 annotation Annotating ContentNode objects with children for level 3
+INFO 2022-11-29 12:36:47,063 annotation Annotating ContentNode objects with children for level 2
+INFO 2022-11-29 12:36:47,066 annotation Annotating ContentNode objects with children for level 1
+INFO 2022-11-29 12:37:15,139 cherrypy.access.140515349076176 172.17.0.1 - - "GET /content/storage/d/4/d4fb8b16a0d26d5898ae17324d814278.png HTTP/1.1" 200 35093 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,229 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/media_player_module/media_player_module0.12.8.css HTTP/1.1" 200 33610 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,269 cherrypy.access.140515348484816 172.17.0.1 - - "GET /static/media_player_module/media_player_module-0.12.8.js HTTP/1.1" 200 177061 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,474 cherrypy.access.140515349076176 172.17.0.1 - - "GET /content/storage/d/f/df6de2e24c024476665179cd9016e9cc.mp4 HTTP/1.1" 206 6860590 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,490 cherrypy.access.140515349076176 172.17.0.1 - - "GET /content/storage/d/f/df6de2e24c024476665179cd9016e9cc.mp4 HTTP/1.1" 206 6860590 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,551 cherrypy.access.140515349076176 172.17.0.1 - - "GET /content/storage/d/f/df6de2e24c024476665179cd9016e9cc.mp4 HTTP/1.1" 206 241454 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-29 12:37:16,812 cherrypy.access.140515349076176 172.17.0.1 - - "GET /content/storage/d/f/df6de2e24c024476665179cd9016e9cc.mp4 HTTP/1.1" 206 6795054 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"

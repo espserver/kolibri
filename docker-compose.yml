@@ -1,0 +1,11 @@
+services:
+  kolibri:
+    image: treehouses/kolibri
+    volumes:
+      - ./data:/root/.kolibri
+    container_name: kolibri
+    restart: always
+    ports:
+      - 8081:8080
+
+#docker run -v /home/ramiro/Downloads/kolibri:/root/.kolibri -p 8081:8080 treehouses/kolibri

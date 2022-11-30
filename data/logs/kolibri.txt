@@ -1,0 +1,50 @@
+INFO 2022-11-30 15:23:01,804 apps Running Kolibri with the following settings: kolibri.deployment.default.settings.base
+INFO 2022-11-30 15:23:02,371 cli Kolibri running for the first time.
+INFO 2022-11-30 15:23:02,372 cli We don't yet use pre-migrated database seeds, so you're going to have to wait a bit while we create a blank database...
+
+
+INFO 2022-11-30 15:23:03,491 cli Automatically enabling applications.
+INFO 2022-11-30 15:23:03,491 cli Running update routines for new version...
+INFO 2022-11-30 15:23:05,206 annotation Updating num_coach_content on existing channels
+INFO 2022-11-30 15:23:07,726 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-30 15:23:07,737 cli Running 'kolibri start' as daemon (system service)
+INFO 2022-11-30 15:23:07,758 cli Kolibri running on:
+
+INFO 2022-11-30 15:23:07,759 cli Going to daemon mode, logging to /root/.kolibri/logs/kolibri.txt
+INFO 2022-11-30 15:23:07,878 ping Attempting a ping.
+INFO 2022-11-30 15:23:08,310 utils Started new JOBCHECKER thread ID#411a6b79610f4f0e9d937ca4cb7017a5
+INFO 2022-11-30 15:23:08,350 annotation Updating num_coach_content on existing channels
+INFO 2022-11-30 15:23:10,073 server Starting Kolibri 0.12.8
+INFO 2022-11-30 15:23:10,328 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-30 15:23:10,328 vacuumsqlite Next Vacuum at 3AM local server time (in 696 minutes).
+INFO 2022-11-30 15:23:11,326 ping Ping succeeded! (response: {u'messages': [], u'id': 3308281})
+INFO 2022-11-30 15:23:14,646 ping Sleeping for 1440.0 minutes.
+INFO 2022-11-30 15:23:15,104 cherrypy.error ENGINE Bus STARTING
+INFO 2022-11-30 15:23:15,213 cherrypy.error ENGINE Serving on http://0.0.0.0:8080
+INFO 2022-11-30 15:23:15,214 cherrypy.error ENGINE Bus STARTED
+INFO 2022-11-30 15:25:34,584 apps Running Kolibri with the following settings: kolibri.deployment.default.settings.base
+INFO 2022-11-30 15:25:37,363 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-30 15:25:37,373 cli Running 'kolibri start' as daemon (system service)
+INFO 2022-11-30 15:25:37,398 cli Kolibri running on:
+
+INFO 2022-11-30 15:25:37,399 cli Going to daemon mode, logging to /root/.kolibri/logs/kolibri.txt
+INFO 2022-11-30 15:25:37,500 ping Attempting a ping.
+INFO 2022-11-30 15:25:37,797 utils Started new JOBCHECKER thread ID#01e6f16cc14149068dfd99e7aa07b533
+INFO 2022-11-30 15:25:38,025 annotation Updating num_coach_content on existing channels
+INFO 2022-11-30 15:25:39,703 server Starting Kolibri 0.12.8
+INFO 2022-11-30 15:25:39,993 vacuumsqlite Sqlite database Vacuum finished.
+INFO 2022-11-30 15:25:39,994 vacuumsqlite Next Vacuum at 3AM local server time (in 694 minutes).
+INFO 2022-11-30 15:25:40,586 ping Ping succeeded! (response: {u'messages': [], u'id': 3308288})
+INFO 2022-11-30 15:25:41,317 ping Sleeping for 1440.0 minutes.
+INFO 2022-11-30 15:25:41,733 cherrypy.error ENGINE Bus STARTING
+INFO 2022-11-30 15:25:41,839 cherrypy.error ENGINE Serving on http://0.0.0.0:8080
+INFO 2022-11-30 15:25:41,840 cherrypy.error ENGINE Bus STARTED
+INFO 2022-11-30 15:25:48,228 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/assets/fonts/noto-subset.es-419.css?v=0.12.8 HTTP/1.1" 200 24804 "http://localhost:8081/es-419/user/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,251 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/assets/fonts/noto-common.css?v=0.12.8 HTTP/1.1" 200 107427 "http://localhost:8081/es-419/user/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,254 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/user_module/user_module-0.12.8.js HTTP/1.1" 200 25172 "http://localhost:8081/es-419/user/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,282 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/default_frontend/default_frontend-0.12.8.js HTTP/1.1" 200 335295 "http://localhost:8081/es-419/user/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,653 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/assets/fonts/noto-full.NotoSans.400.woff HTTP/1.1" 200 432828 "http://localhost:8081/static/assets/fonts/noto-full.es-419.modern.css?v=0.12.8" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,654 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/assets/fonts/noto-full.NotoSans.700.woff HTTP/1.1" 200 433488 "http://localhost:8081/static/assets/fonts/noto-full.es-419.modern.css?v=0.12.8" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:25:48,889 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/background.jpg?0.12.8-Default%20theme-1 HTTP/1.1" 200 211311 "http://localhost:8081/es-419/user/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:26:00,730 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/facility_management_module/facility_management_module-0.12.8.js HTTP/1.1" 200 39067 "http://localhost:8081/es-419/facility/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+INFO 2022-11-30 15:26:07,061 cherrypy.access.140064161934928 172.19.0.1 - - "GET /static/learn_module/learn_module-0.12.8.js HTTP/1.1" 200 84732 "http://localhost:8081/es-419/learn/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
